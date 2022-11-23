@@ -29,4 +29,4 @@ The PR curve tool is here:
 # Reference
 When building our codeWe referenced the repositories as follow:
 
-    [PidiNet](https://github.com/zhuoinoulu/pidinet)
+[PidiNet](https://github.com/zhuoinoulu/pidinet)
