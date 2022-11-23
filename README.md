@@ -27,7 +27,7 @@ The PR curve tool is here:
     https://github.com/MCG-NKU/plot-edge-pr-curves
 ****
 # Reference
-When building our codeWe referenced the repositories as follow:
+When building our code, we referenced the repositories as follow:
 
 [LMGCN](https://github.com/cimerainbow/LMGCN)
 
