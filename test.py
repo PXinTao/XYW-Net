@@ -7,7 +7,7 @@ import transforms
 from matplotlib import pyplot as plt
 import numpy as np
 from data import BSDS_500, NYUD, PASCAL_Context, PASCAL_VOC12
-import model1
+import model
 
 
 import time
