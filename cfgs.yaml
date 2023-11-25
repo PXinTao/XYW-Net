@@ -1,0 +1,25 @@
+vgg16-5stage: K:/PXTing/test/data/vgg16-397923af.pth
+
+
+
+dataset:
+  #BSDS: E:\AI\HEDdataset\HED-BSDS
+  BSDS: F:\matlab_tool\Dataset\ori_data\HED-BSDS
+  BSDS-VOC: F:\matlab_tool\Dataset\new_data\BSDS500
+
+# train 16 32 8 for nyud and PASCAL-Context 10 8 2 for bsds PASCAL12: 10 64 16
+batch_size: 1
+max_epoch: 7
+decay_rate: 0.1
+decay_steps: 8 # cao:1  yuan 2
+
+# optimization Adam or SGD
+method: Adam
+lr: 1.0e-3   #  cao 1.0e-3 yuan 1.0e-2 CED 1.0e-5
+momentum: 0.9 #  CED 0.99
+weight_decay: 2.0e-4
+
+# save
+sava_epoch: 2
+
+save_name: _XYW_ep7_lrd5.pth
