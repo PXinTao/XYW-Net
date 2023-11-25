@@ -9,7 +9,7 @@ dataset:
 
 # train 16 32 8 for nyud and PASCAL-Context 10 8 2 for bsds PASCAL12: 10 64 16
 batch_size: 1
-max_epoch: 7
+max_epoch: 6
 decay_rate: 0.1
 decay_steps: 8 # cao:1  yuan 2
 
