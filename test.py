@@ -19,7 +19,7 @@ if __name__ == '__main__':
     cfgs = yaml.load(file_id,yaml.FullLoader)
     file_id.close()
 
-    net = model1.Net().eval()
+    net = model.Net().eval()
 
     net.load_state_dict(torch.load('./new.pth',map_location='cuda:0'))
 
